@@ -9,23 +9,22 @@
   </div>
   <div class="head2">
     <div>
-      <h1>BagGlam</h1>
+      <a routerLink=""><h1>BagGlam</h1></a>
     </div>
     <div>
       <ul>
         <li><a routerLink="">Home</a></li>
-        <li><a routerLink="">Shop</a></li>
-        <li><a routerLink="">Shoulder Bag</a></li>
-        <li><a routerLink="">Backpacks</a></li>
-        <li><a routerLink="">Contact Us</a></li>
+        <li><a routerLink="shop">Shop</a></li>
+        <li><a routerLink="shoulderbag">Shoulder Bag</a></li>
+        <li><a routerLink="backpack">Backpacks</a></li>
+        <li><a routerLink="contactus">Contact Us</a></li>
       </ul>
     </div>
     <div class="telephone">
-
-      <img src="../assets/svg/1831922.svg" height="50px" alt="phone">
+       <img  src="../assets/svg/1831922.svg" height="50px" alt="phone">
       <div>
         <h3 id="call-to">Call To</h3>
-        <h3 style="font-weight: 50;" id="call">1800-9500</h3>
+        <h3 style="font-weight: 50;"  id="call">1800-9500</h3>
       </div>
     </div>
   </div>
@@ -50,9 +49,9 @@
   </div>
 
 
-  <app-shop></app-shop>
+  
+<router-outlet></router-outlet>
 
-<app-home></app-home>
 <footer>
   <div class="foot">
     <div class="foot1">
@@ -73,17 +72,17 @@
       <h5>Key Links</h5>
       <ul>
         <li id="foot1"><a routerLink="">Home</a></li>
-        <li id="foot1"><a routerLink="">Shop</a></li>
-        <li id="foot1"><a routerLink="">Shoulder Bag</a></li>
-        <li id="foot1"><a routerLink="">Backpacks</a></li>
-        <li id="foot1"><a routerLink="">Contact Us</a></li>
+        <li id="foot1"><a routerLink="shop">Shop</a></li>
+        <li id="foot1"><a routerLink="shoulderbag">Shoulder Bag</a></li>
+        <li id="foot1"><a routerLink="backpack">Backpacks</a></li>
+        <li id="foot1"><a routerLink="contactus">Contact Us</a></li>
       </ul>
     </div>
     <div class="foot1">
       <h5 >Location</h5>
-      <p>Near G H Raisoni college Domkhel Road Wagholi Pune Maharashtra 412207</p>
-      <p>Contact : 304-559-3023</p>
-      <p>E-mail : BagGlam&#64;store.com</p>
+      <p id="foot2">Near G H Raisoni college Domkhel Road Wagholi Pune Maharashtra 412207</p>
+      <p id="foot2">Contact : 304-559-3023</p>
+      <p id="foot2">E-mail : BagGlam&#64;store.com</p>
     </div>
   </div>
   <p id="copyright"> © 2024 BagGlam Designed by Aditya</p>

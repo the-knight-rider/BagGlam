@@ -154,7 +154,6 @@ footer{
 .foot{
     display: flex;
     justify-content: center;
-    
     margin: auto;
 }
 .foot1 h5{
@@ -170,11 +169,18 @@ footer{
 #foot1{
     text-align: center;
 }
-footer p,li{
+footer p,li,a{
     margin: 3px;
     color: rgb(179, 183, 186);
     list-style: none;
+    text-decoration: none;
 }
 #foot1:hover{
+    color: brown;
+}
+#foot1 a:hover{
+    color: brown;
+}
+#foot2:hover{
     color: brown;
 }
