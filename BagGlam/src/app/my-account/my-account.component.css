@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+    background-image: url("../../assets/images/image1/Home/leisara-0gUziFbiCOE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container1 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(223, 10, 10, 0.9);
+    width: 100%;
+    max-width: 400px;
+}
+.myaccount{
+/* background-color: #e16c6c; */
+border-radius: 5px;
+margin: 5px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007BFF;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+nav a.active {
+    background-color: red;
+    color: white;
+}
+
+.login-form {
+    text-align: left;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color:#d44622;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:  red;
+}
+
+.lost-password {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #bc4a0c;
+    text-decoration: none;
+}
+
+.lost-password:hover {
+    text-decoration: underline;
+}

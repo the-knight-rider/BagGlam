@@ -2,9 +2,9 @@
   <div class="head1">
     <h3>Discount will be available on selected products</h3>
     <ul>
-      <li><a href="">| Orders |</a></li>
-      <li><a href="">| Download |</a></li>
-      <li><a href="">| Addresses |</a></li>
+      <li><a routerLink="app-my-account">| Orders |</a></li>
+      <li><a routerLink="app-my-account">| Download |</a></li>
+      <li><a routerLink="app-my-account">| Addresses |</a></li>
     </ul>
   </div>
   <div class="head2">
@@ -32,8 +32,8 @@
     <div>
       <img id="menu" src="../assets/images/list-13205.png" height="20px"  alt="">
       <select name="Department" id="header1">
-        <option value="All" [disabled]="">ALL DEPARTMENT</option>
-        <option value="">Bagpack</option>
+        <option value="All">ALL DEPARTMENT</option>
+        <option routerLink="backpack.html">Bagpack</option>
         <option value="">Shoulder Bags</option>
       </select>
     </div>
@@ -43,7 +43,7 @@
           src="../assets/images/search-2906.png" height="20px" alt=""></button>
     </div>
     <div>
-      <img src="../assets/images/user-3295.png" alt="">
+     <a routerLink="app-my-account"> <img src="../assets/images/user-3295.png" alt=""></a>
       <img src="../assets/images/red-heart-11121.png" alt="">
     </div>
   </div>

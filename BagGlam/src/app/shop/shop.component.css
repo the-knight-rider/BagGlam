@@ -1,9 +1,55 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
 .part {
     display: flex;
     justify-content: space-evenly;
     gap: 50%;
 }
 
+.tray1 {
+   
+    padding: 20px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tray1 img {
+    height: 30vh;
+}
+.tray1 img:hover{
+transform: scale(1.2);
+transition: 1s ease;
+}
+.tray-des:hover{
+    border: solid 3px rgb(185, 31, 31);
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+
+h4,
+p {
+    text-align: center;
+}
+
+.sec {
+    margin: 40px;
+}
+.part {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50%;
+}
+.tray-design{
+    border-bottom: 1px solid rgb(101, 99, 99);
+    border-radius: 30px;
+    padding: 5px;
+}
 .tray1 {
     display: flex;
     justify-content: center;
@@ -31,4 +77,9 @@ p {
 
 .sec {
     margin: 40px;
+}
+.pricetag:hover{
+    background-color: rgb(228, 233, 233);
+    border-radius: 30PX;
+    transition: 0.5s;
 }
