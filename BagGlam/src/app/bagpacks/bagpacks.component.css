@@ -32,3 +32,13 @@ p {
 .sec {
     margin: 40px;
 }
+.pricetag:hover{
+    background-color: rgb(228, 233, 233);
+    border-radius: 30PX;
+    transition: 0.5s;
+}
+.tray-design{
+    border-bottom: 1px solid rgb(101, 99, 99);
+    border-radius: 30px;
+    padding: 5px;
+}
