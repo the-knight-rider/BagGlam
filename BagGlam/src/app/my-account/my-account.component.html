@@ -16,7 +16,7 @@
         <div class="login-form">
 
             <h2>Login</h2>
-            <form>
+            <form id="loginForm">
                 <label for="username">Username or email address *</label>
                 <input type="text" id="username" name="username" required>
 
@@ -34,6 +34,13 @@
             </form>
         </div>
     </div>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var username = document.getElementById('username').value;
+            window.location.href = 'account.html?username=' + encodeURIComponent(username);
+        });
+    </script>
 </body>
 
 </html>

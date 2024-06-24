@@ -40,7 +40,7 @@
     padding-left: 5em;
     padding-right: 5em;
     align-items: center;
-    background-color: aliceblue;
+    background-color: rgb(229, 238, 244);
 }
 .telephone{
     display: flex;
@@ -102,6 +102,14 @@ transition: 0.3s ease;
 #menu:hover{
     background-color: darkred;
 }
+.sel{
+    border: solid;
+    border-radius: 10px;
+    padding: 2px;
+}
+.sel:hover{
+    background-color: rgb(214, 220, 220);
+}
 .head3{
     display: flex;
     justify-content: space-between;
@@ -115,13 +123,20 @@ transition: 0.3s ease;
     justify-content: space-between;
     align-items: center;
 }
+.head3 select,select:hover{
+    background-color: aliceblue;
+}
 .head3 select,select:focus{
     outline: none;
     border: none;
     padding-left: 20px;
     background-color: aliceblue;
     
+    
 }
+
+
+
 #header1{
     height: 40px;
 }
