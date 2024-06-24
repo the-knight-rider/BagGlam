@@ -36,4 +36,13 @@
   button:hover {
     background-color: #39393a;
   }
-  
+  .back{
+    /* background-image: url(../../assets/images/download1.jpeg); */
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+  }
+  *{
+    margin: 0;
+  padding: 0;
+}

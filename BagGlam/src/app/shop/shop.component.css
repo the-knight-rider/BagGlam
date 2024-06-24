@@ -11,11 +11,16 @@
 
 .tray1 {
    
-    padding: 20px;
-        display: flex;
+    padding: 10px;
+    display: flex;
     justify-content: center;
     align-items: center;
     
+}
+#homehead{
+    color: white;
+   
+    font-size:30px;
 }
 
 .tray1 img {
@@ -46,9 +51,22 @@ p {
     gap: 50%;
 }
 .tray-design{
-    border-bottom: 1px solid rgb(101, 99, 99);
-    border-radius: 30px;
-    padding: 5px;
+    border: solid 2px rgba(139, 138, 138, 0.186);
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(199, 224, 247);
+}
+.backgrd{
+    background-image: url('../../assets/images/istockphoto-1321859346-612x612.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* background: linear-gradient(to bottom right, #e6beb42f, #9c898b1d);   */
+}
+.pricetag{
+    background-color:rgb(228, 233, 233);
+    
 }
 .tray1 {
     display: flex;
@@ -79,7 +97,6 @@ p {
     margin: 40px;
 }
 .pricetag:hover{
-    background-color: rgb(228, 233, 233);
-    border-radius: 30PX;
+    background-color: rgb(242, 163, 161); 
     transition: 0.5s;
 }
