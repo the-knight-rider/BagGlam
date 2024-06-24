@@ -5,6 +5,7 @@ import { ShoulderbagComponent } from './shoulderbag/shoulderbag.component';
 import { BagpacksComponent } from './bagpacks/bagpacks.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { MyAccountComponent } from './my-account/my-account.component';
+import { ProductinfoComponent } from './productinfo/productinfo.component';
 
 
 
@@ -14,6 +15,7 @@ export const routes: Routes = [
     {path: 'shoulderbag', component:ShoulderbagComponent},
     {path: 'backpack', component:BagpacksComponent},
     {path: 'contactus', component:ContactusComponent},
-    {path: 'app-my-account', component:MyAccountComponent }
+    {path: 'app-my-account', component:MyAccountComponent },
+    {path: 'product-info', component:ProductinfoComponent}
     
   ];

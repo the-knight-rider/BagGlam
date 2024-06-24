@@ -14,11 +14,13 @@
   }
   
   input {
+    background-color: transparent;
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
   }
   textarea{
+    background-color: transparent;
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
@@ -36,12 +38,12 @@
   button:hover {
     background-color: #39393a;
   }
-  .back{
-    /* background-image: url(../../assets/images/download1.jpeg); */
-    /* background-size: cover;
+  /* .back{
+    background-image: url('../../assets/images/istockphoto-1321859346-612x612.jpg'); 
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; */
-  }
+    background-repeat: no-repeat;
+  } */
   *{
     margin: 0;
   padding: 0;
